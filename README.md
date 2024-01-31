@@ -1,7 +1,7 @@
 
 # Homebrew Tap for Hook
 
-This repository is the [Homebrew](https://brew.sh) tap that allows users to install [Hook](https://github.com/hook-lang/hook) easily on `macOS` and `Linux` systems.
+This repository is the [Homebrew](https://brew.sh) tap that allows users to install [Hook](https://github.com/hook-lang/hook) easily on `macOS` system.
 
 ## What is Hook?
 

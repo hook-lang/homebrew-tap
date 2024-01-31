@@ -18,13 +18,6 @@ class Hook < Formula
     end
   end
 
-  on_linux do
-    on_intel do
-      url "https://github.com/hook-lang/hook/releases/download/0.1.0/hook-0.1.0-linux-x64.tar.gz"
-      sha256 "ef77289120f9d05bdb1869878705435c37f95f28a087742ec92320dacbd01176"
-    end
-  end
-
   def install
     bin.install "bin/hook"
     include.install Dir["include/*"]
