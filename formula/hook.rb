@@ -9,12 +9,12 @@ class Hook < Formula
   on_macos do
     on_intel do
       url "https://github.com/hook-lang/hook/releases/download/0.1.0/hook-0.1.0-macos-x64.tar.gz"
-      sha256 "627a73e1ffbe77d5f8fb1a55abcaf7010bbc3d1787b4d6f52f08e1e0a3cb05ea"
+      sha256 "644b4b87d9c4f3df1a4056dab2662c9e822babd753ac5827eec6d079efa484a6"
     end
 
     on_arm do
       url "https://github.com/hook-lang/hook/releases/download/0.1.0/hook-0.1.0-macos-arm64.tar.gz"
-      sha256 "b1ee0ce0e46a19cf7c77bc47c66c419560a570deda5e906400bd9a13bf81fb8b"
+      sha256 "7a05b685d99af28da670c7b1fa75483d59e24ddb9d8d40481005f72d33c4055c"
     end
   end
 
