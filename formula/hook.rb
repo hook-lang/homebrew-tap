@@ -1,22 +1,10 @@
 class Hook < Formula
   desc "The Hook Programming Language"
   homepage "https://github.com/hook-lang/hook"
-  url "https://github.com/hook-lang/hook/archive/0.1.0.tar.gz"
+  url "https://github.com/hook-lang/hook/releases/download/0.1.0/hook-0.1.0-macos-arm64.tar.gz"
   version "0.1.0"
-  sha256 "00007c84802eeb5b8bb04d2d5ee0848a950984c7c3110382cf033c5346d9191c"
+  sha256 "427dc4bbe2691cf7d0f518b4d66887e3519b543f50403b78dd317a333c162915"
   license "MIT"
-
-  on_macos do
-    on_intel do
-      url "https://github.com/hook-lang/hook/releases/download/0.1.0/hook-0.1.0-macos-x64.tar.gz"
-      sha256 "644b4b87d9c4f3df1a4056dab2662c9e822babd753ac5827eec6d079efa484a6"
-    end
-
-    on_arm do
-      url "https://github.com/hook-lang/hook/releases/download/0.1.0/hook-0.1.0-macos-arm64.tar.gz"
-      sha256 "7a05b685d99af28da670c7b1fa75483d59e24ddb9d8d40481005f72d33c4055c"
-    end
-  end
 
   def install
     bin.install "bin/hook"
